@@ -1,19 +1,56 @@
 # CS-320: Software Testing, Automation, and Quality Assurance
 
 ## Project Overview
-This repository contains coursework and projects for **CS-320: Software Testing, Automation, and Quality Assurance**. The purpose of this project is to demonstrate fundamental and advanced techniques in software testing, including unit testing, automation, and quality assurance best practices.
+This repository contains coursework and projects for **CS-320: Software Testing, Automation, and Quality Assurance**. This project aims to implement and demonstrate best practices in software testing, focusing on **unit testing, automation, and quality assurance methodologies**.
 
-Through this project, I have implemented and documented various testing methodologies to ensure software reliability, maintainability, and performance.
+Through this project, I explored techniques to enhance software reliability, maintainability, and efficiency, ensuring that applications meet high-quality standards.
+
+---
+
+## Key Questions & Approaches
+
+### How can I ensure that my code, program, or software is functional and secure?
+Ensuring software functionality and security requires a structured approach to **testing, code review, and best development practices**. One of the most effective methods I used in this project is **white-box testing**, which involves analyzing the internal structure of the code to verify that each component behaves as expected.
+
+Other key strategies include:
+- Writing **clear, maintainable, and well-documented code** to enhance readability and ease of debugging.
+- Regularly reviewing code to **eliminate redundant or unused code**, which helps improve efficiency and reduces potential security risks.
+- Leveraging **automated testing frameworks** to systematically validate functionality and detect errors before deployment.
+
+---
+
+### How do I interpret user needs and incorporate them into a program?
+Understanding and implementing user requirements is a fundamental aspect of software development. My approach includes:
+1. **Carefully analyzing the given specifications** to identify key functional and non-functional requirements.
+2. **Breaking down complex requirements into smaller, manageable tasks** to ensure thorough implementation.
+3. Implementing constraints such as:
+   - **Phone number, ID length, and name fields are limited to 10 characters.**
+   - Using a **final byte of length 10** to enforce these restrictions programmatically.
+   
+By systematically addressing user needs and enforcing clear validation rules, I ensured that the software met its intended requirements precisely.
+
+---
+
+### How do I approach designing software?
+Developing software requires careful planning, structured execution, and continuous refinement. My process follows these steps:
+
+1. **Requirement Analysis:** Understanding the specifications and defining core functionalities.
+2. **Task Breakdown:** Dividing requirements into distinct components to streamline development.
+3. **Initial Implementation:** Writing the foundational code to achieve the primary functionality.
+4. **Refinement & Debugging:** Iteratively improving the code for efficiency, readability, and correctness.
+5. **Final Verification:** Conducting thorough reviews and testing to ensure all requirements are met.
+
+By following this approach, I ensure that my software is not only functional but also **well-structured, scalable, and maintainable**.
 
 ---
 
 ## Features
-- Unit Testing: Implementation of test cases using JUnit.
-- Test-Driven Development (TDD): Development following the TDD approach to ensure code correctness.
-- Automated Testing: Utilization of automated test frameworks to streamline testing processes.
-- Code Coverage Analysis: Measuring the effectiveness of test cases using coverage tools.
-- Bug Tracking & Debugging: Identifying, logging, and fixing software defects.
-- Continuous Integration (CI/CD): Integration of automated testing into a CI/CD pipeline.
+- **Unit Testing:** Implementation of test cases using JUnit.
+- **Test-Driven Development (TDD):** Writing tests before code to ensure correctness.
+- **Automated Testing:** Leveraging automation tools for efficient testing.
+- **Code Coverage Analysis:** Measuring test effectiveness using coverage reports.
+- **Bug Tracking & Debugging:** Identifying, documenting, and resolving software issues.
+- **Continuous Integration (CI/CD):** Automating testing in a deployment pipeline.
 
 ---
 
@@ -27,13 +64,12 @@ Through this project, I have implemented and documented various testing methodol
 ---
 
 ## Installation & Setup
-To set up and run this project on your local machine, follow these steps:
+To set up and run this project locally, follow these steps:
 
-### Clone the repository:
-
-    ''' bash
-    git clone https://github.com/Toast-stack/CS-320-Software-Testing-Automation-and-Quality-Assurance.git
-    cd CS-320-Software-Testing-Automation-and-Quality-Assurance
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Toast-stack/CS-320-Software-Testing-Automation-and-Quality-Assurance.git
+   cd CS-320-Software-Testing-Automation-and-Quality-Assurance
 
 ### Build the project
 
