@@ -117,3 +117,6 @@ Throughout this project, I explored real-world testing scenarios, faced challeng
 * Writing scalable code improves maintainability
 * CI/CD integration ensures smooth development workflows
 * Automated testing significantly reduces human errors
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software.
